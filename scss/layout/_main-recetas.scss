@@ -1,19 +1,18 @@
 .recetas-varias{
-    background-color: black;
+    background-image: url(../assets/img/recetas/fondo.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
-
-
-
-// section div img{
-//     width: 10rem;
-//     height: 10rem;
-//     border-radius: 20px;
-// }
-// h1, h2{
-//     text-align: center;
-// }
-// .container-cards{
-//     @include flex(row, wrap, space-evenly, center);
-// }
+section div img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 20px;
+}
+h1, h2{
+    text-align: center;
+}
+.container-cards{
+    @include flex(row, wrap, space-evenly, center);
+}
 
