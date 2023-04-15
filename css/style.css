@@ -28,17 +28,21 @@ header nav ul {
 header nav ul li a {
   text-decoration: none;
   color: black;
+  text-shadow: 2px 2px 2px grey;
 }
 
-main {
+main .titulo-principal {
   font-family: "Great Vibes";
-  text-align: right;
-  font-style: normal;
-  font-size: 3.4rem;
-  font-weight: 200;
+  text-align: left;
+  color: white;
+  font-size: 3.2rem;
   padding-top: 70px;
-  padding-right: 100px;
-  text-shadow: 3px 1px rgba(0, 0, 0, 0.795);
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  text-shadow: 3px 1px rgba(105, 99, 99, 0.795);
+  background-image: url(../assets/img/Home/background-main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer {
@@ -51,12 +55,13 @@ footer {
 footer div h2 {
   display: flex;
   justify-content: center;
+  padding-top: 0.5rem;
+  text-decoration: underline;
+  padding-bottom: 1rem;
 }
 footer ul li {
   display: inline-block;
-}
-footer ul li img {
-  gap: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 footer ul li a {
   text-decoration: none;

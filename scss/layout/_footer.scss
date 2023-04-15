@@ -7,12 +7,13 @@ footer{
     div h2{
         display: flex;
         justify-content: center;
+        padding-top: 0.5rem;
+        text-decoration: underline;
+        padding-bottom: 1rem;
     }
     ul li{
-        display: inline-block;
-        img{
-            gap: 0.5rem;
-        }
+        display:inline-block;
+        padding-bottom: 0.5rem;
         a{
             text-decoration: none;
             list-style: none;
