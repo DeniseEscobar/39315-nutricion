@@ -45,6 +45,53 @@ main .titulo-principal {
   background-size: cover;
 }
 
+main .seccion-sobremi {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+main .seccion-sobremi div h1 {
+  display: flex;
+  font-family: "Great Vibes";
+  color: #52BBB4;
+  font-size: 3rem;
+  text-shadow: 2px 2px 2px rgba(128, 128, 128, 0.493);
+  justify-content: right;
+  padding-top: 0.5rem;
+  padding-right: 4rem;
+}
+main .seccion-sobremi div p {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 0 4rem;
+}
+main .seccion-sobremi div img {
+  width: 18rem;
+  height: 25rem;
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+}
+
+.certificaciones div h2 {
+  font-family: "Great Vibes";
+  color: #52BBB4;
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  text-shadow: 2px 2px 2px rgba(128, 128, 128, 0.493);
+}
+.certificaciones ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.certificaciones ul li p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
 footer {
   background-color: #DBF6E9;
   font-family: "Poppins", sans-serif;
