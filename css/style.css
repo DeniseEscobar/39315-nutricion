@@ -105,7 +105,7 @@ main .seccion-sobremi div img {
   font-size: 1rem;
 }
 
-main h1 {
+.servicios h1 {
   font-family: "Great Vibes";
   color: #52BBB4;
   text-align: right;
@@ -125,6 +125,10 @@ main h1 {
 .carousel-inner {
   border-radius: 20px;
   text-shadow: 1px 1px black;
+}
+
+.recetas-varias {
+  background-color: black;
 }
 
 footer {
