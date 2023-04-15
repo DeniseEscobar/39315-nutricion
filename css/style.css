@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  background-color: #DBF6E9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header div img {
+  width: 13rem;
+  height: 5rem;
+  display: flex;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-right: 0.8rem;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  font-family: "Great Vibes";
+  text-align: right;
+  font-style: normal;
+  font-size: 3.4rem;
+  font-weight: 200;
+  padding-top: 70px;
+  padding-right: 100px;
+  text-shadow: 3px 1px rgba(0, 0, 0, 0.795);
+}
+
+footer {
+  background-color: #DBF6E9;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer div h2 {
+  display: flex;
+  justify-content: center;
+}
+footer ul li {
+  display: inline-block;
+}
+footer ul li img {
+  gap: 0.5rem;
+}
+footer ul li a {
+  text-decoration: none;
+  list-style: none;
+}
+
+/*# sourceMappingURL=style.css.map */

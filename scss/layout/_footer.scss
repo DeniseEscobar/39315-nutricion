@@ -1,0 +1,21 @@
+footer{
+    background-color: $background-main;
+    font-family: $font-secundario;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    div h2{
+        display: flex;
+        justify-content: center;
+    }
+    ul li{
+        display: inline-block;
+        img{
+            gap: 0.5rem;
+        }
+        a{
+            text-decoration: none;
+            list-style: none;
+        }
+    }
+}
