@@ -1,9 +1,9 @@
 main .seccion-sobremi{
-    font-size: 1rem;
+    font-size: $font-size;
     display: flex;
     justify-content: space-evenly;
     div h1{
-        display: flex;
+        @include flex (none, none, none, none);
         font-family: $font-principal;
         color: $color-principal;
         font-size: 3rem;
@@ -43,6 +43,6 @@ main .seccion-sobremi{
     }
     ul li p{
         font-family: $font-secundario;
-        font-size: 1rem;
+        font-size: $font-size;
     }
 }

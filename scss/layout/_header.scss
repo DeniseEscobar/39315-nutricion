@@ -2,18 +2,15 @@ header{
     font-size: 1rem;
     font-family: $font-secundario;
     background-color: $background-main;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex (row, wrap, space-between, center);
     div img{
         width: 13rem;
         height: 5rem;
-        display: flex;
+        @include flex (none, none, none,none);
     }
     nav ul{
         list-style: none;
-        display: flex;
-        flex-direction: row;
+        @include flex (row, none, none, none);
         gap: 1rem;
         margin-right: 0.8rem;
         li a{

@@ -1,12 +1,10 @@
 footer{
     background-color: $background-main;
     font-family: $font-secundario;
-    font-size: 1rem;
-    display: flex;
-    justify-content: space-evenly;
+    font-size: $font-size;
+    @include flex (row, wrap, space-evenly, none);
     div h2{
-        display: flex;
-        justify-content: center;
+        @include flex (row, wrap, center, none);
         padding-top: 0.5rem;
         text-decoration: underline;
         padding-bottom: 1rem;
