@@ -5,17 +5,20 @@
 }
 
 section div img{
-    width: 10rem;
+    width: 12rem;
     height: 10rem;
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgb(100, 100, 100);
 }
-h1, h2{
+.titulo-recetas{
     text-align: center;
     font-family: $font-principal;
     font-size: 2rem;
     padding: 0.5rem 0;
     text-shadow: 2px 2px 2px white;
+}
+.subtitulo-recetas{
+    @extend .titulo-recetas
 }
 .container-cards{
     @include flex(row, wrap, space-evenly, center);
@@ -24,8 +27,17 @@ h1, h2{
     }
     div h3{
         font-family: $font-secundario;
+        font-size: 0.9rem;
     }
 }
 button{
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.8rem;
+    background-color: rgba(128, 128, 128, 0.274);
+    border-radius: 10px;
+    padding: 3.5px;
+}
+button:hover{
+    font-family: $font-secundario;
+    font-size: 0.7rem;
+    background-color: lightcyan;
 }

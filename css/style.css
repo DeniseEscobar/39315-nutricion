@@ -80,7 +80,7 @@ main .seccion-sobremi div p {
   padding: 0 4rem;
 }
 main .seccion-sobremi div img {
-  width: 18rem;
+  width: 15rem;
   height: 25rem;
   margin-top: 1.5rem;
   margin-left: 2rem;
@@ -134,13 +134,13 @@ main .seccion-sobremi div img {
 }
 
 section div img {
-  width: 10rem;
+  width: 12rem;
   height: 10rem;
   border-radius: 20px;
   box-shadow: 5px 5px 5px rgb(100, 100, 100);
 }
 
-h1, h2 {
+.titulo-recetas, .subtitulo-recetas {
   text-align: center;
   font-family: "Great Vibes";
   font-size: 2rem;
@@ -164,10 +164,45 @@ h1, h2 {
 }
 .container-cards div h3 {
   font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
 }
 
 button {
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.8rem;
+  background-color: rgba(128, 128, 128, 0.274);
+  border-radius: 10px;
+  padding: 3.5px;
+}
+
+button:hover {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.7rem;
+  background-color: lightcyan;
+}
+
+.mas-info {
+  background-image: url(../assets/img/mas-info/fondo-mas-info.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: 78vh;
+}
+.mas-info h1 {
+  font-family: "Great Vibes";
+  text-align: center;
+  color: #52BBB4;
+  font-size: 3rem;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px white;
+}
+.mas-info p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem 10rem;
+  text-indent: 3rem;
+  line-height: 2rem;
+  text-shadow: 2px 1px 1px white;
 }
 
 footer {
