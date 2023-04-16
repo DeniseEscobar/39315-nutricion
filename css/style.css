@@ -46,7 +46,11 @@ nav #toggle, nav label {
   display: none;
 }
 
-main .titulo-principal {
+nav label img {
+  margin-right: 2rem;
+}
+
+.titulo-principal {
   font-family: "Great Vibes";
   text-align: left;
   color: white;
@@ -241,6 +245,25 @@ footer ul li a {
   list-style: none;
 }
 
+@media (max-width: 1440px) {
+  .titulo-principal {
+    height: 81vh;
+  }
+}
+@media (max-width: 1024px) {
+  .titulo-principal {
+    font-size: 2rem;
+    height: 76vh;
+  }
+  footer div h2 {
+    font-size: 0.9rem;
+    padding-bottom: 0.8rem;
+  }
+  footer ul li {
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+  }
+}
 @media (max-width: 768px) {
   nav .menu {
     width: 100%;
@@ -259,6 +282,51 @@ footer ul li a {
   }
   nav #toggle:checked ~ .menu {
     height: 100%;
+  }
+}
+@media (max-width: 425px) {
+  .titulo-principal {
+    background-size: cover;
+  }
+  footer div h2 {
+    padding-bottom: 0.4rem;
+  }
+  footer ul li {
+    display: inline-flex;
+    padding: 0;
+    padding-left: 0.5rem;
+    height: 0.7rem;
+  }
+  nav .logo {
+    width: 9rem;
+    height: 3rem;
+  }
+}
+@media (max-width: 375px) {
+  footer {
+    font-size: 0.6rem;
+  }
+  footer div h2 {
+    padding-top: 0.2rem;
+  }
+  footer ul li img {
+    height: 0.7rem;
+  }
+  .titulo-principal {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 320px) {
+  header nav .logo {
+    width: 12rem;
+    height: 4rem;
+  }
+  nav label img {
+    height: 1.2rem;
+  }
+  .titulo-principal {
+    font-size: 1.4rem;
+    height: 75vh;
   }
 }
 

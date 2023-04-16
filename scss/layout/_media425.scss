@@ -1,0 +1,20 @@
+@media (max-width:425px){
+    .titulo-principal{
+        background-size: cover;
+    }
+    footer{
+        div h2{
+        padding-bottom: 0.4rem;
+    }
+        ul li{
+        display: inline-flex;
+        padding: 0;
+        padding-left: 0.5rem;
+        height: 0.7rem;
+    }
+    }
+    nav .logo{
+        width: 9rem;
+        height: 3rem;
+    }
+}
