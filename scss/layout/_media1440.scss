@@ -2,4 +2,28 @@
     .titulo-principal{
         height: 81vh;
     }
+    .seccion-sobremi{
+        div h1{
+            margin-top: 1rem;
+        }
+        div p{
+            margin-top: 2rem;
+        }
+    }
+    .certificaciones{
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        div ul li p{
+            margin-bottom: 2rem;
+        }
+    }
+    footer{
+        div h2{
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+        }
+        ul li{
+            margin-bottom: 2rem;
+        }
+    }
 }

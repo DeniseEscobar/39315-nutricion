@@ -17,4 +17,28 @@
         width: 9rem;
         height: 3rem;
     }
+    .seccion-sobremi{
+        div img{
+            width: 9rem;
+            height: 13rem;
+        }
+        div p{
+            font-size: 0.6rem;
+            padding: 0 1rem;
+        }
+    }
+    .certificaciones{
+        div h2{
+            margin-top: 1rem;
+        }
+        ul li p{
+            font-size: 0.6rem;
+        }
+    }
+    footer{
+        ul li{
+            font-size: 0.7rem;
+            margin: 1rem 0;
+        }
+    }
 }

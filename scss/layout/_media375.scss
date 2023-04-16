@@ -11,4 +11,23 @@
     .titulo-principal{
         font-size: 1.5rem;
     }
+    .seccion-sobremi{
+        div img{
+            width: 6rem;
+            height: 10rem;
+        }
+        div p{
+            padding: 0 0.5rem;
+        }
+    }
+    footer{
+        div h2{
+            margin-top: 0.2rem;
+        }
+        ul li{
+            display: block;
+            font-size: 0.7rem;
+            margin: 0.6rem;
+        }
+    }
 }

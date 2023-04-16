@@ -13,4 +13,36 @@
             margin-bottom: 0.5rem;
         }
     }
+    .seccion-sobremi{
+        div h1{
+            margin: 0;
+            font-size: 2rem;
+        }
+        div p{
+            margin: 0;
+            font-size: 0.9rem;
+        }
+        div img{
+            width: 15rem;
+            height: 23rem;
+            margin-left: 1rem;
+        }
+    }
+    .certificaciones{
+        margin: 0;
+        div h2{
+            font-size: 2rem;
+        }
+        ul li p{
+            font-size: 0.9rem;
+        }
+    }
+    footer{
+        div h2{
+            padding: 0;
+        }
+        ul li{
+            margin: 0.5rem;
+        }
+    }
 }
