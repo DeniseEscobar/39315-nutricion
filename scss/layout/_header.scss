@@ -2,21 +2,30 @@ header{
     font-size: 1rem;
     font-family: $font-secundario;
     background-color: $background-main;
-    @include flex (row, wrap, space-between, center);
-    div img{
-        width: 13rem;
-        height: 5rem;
-        @include flex (none, none, none,none);
+    .nav-wrapper{
+        width: 100%;
+        margin: 0 auto;
+        padding: 1rem;
     }
-    nav ul{
-        list-style: none;
-        @include flex (row, none, none, none);
-        gap: 1rem;
-        margin-right: 0.8rem;
-        li a{
-            text-decoration: none;
-            color: black;
-            text-shadow: 2px 2px 2px grey;
+    nav {
+        @include flex (row, wrap, space-between, center);
+        .logo{
+            width: 13rem;
+            height: 5rem;
+        }
+        .menu ul{
+            list-style: none;
+            @include flex (none, none, none, none);
+            gap: 1rem;
+            margin-right: 0.8rem;
+            li a{
+                text-decoration: none;
+                color: black;
+                text-shadow: 2px 2px 2px grey ;
+            }
         }
     }
+}
+nav #toggle, nav label{
+    display: none;
 }
