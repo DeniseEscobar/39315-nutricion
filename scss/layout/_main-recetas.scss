@@ -23,7 +23,7 @@ section div img{
 .container-cards{
     @include flex(row, wrap, space-evenly, center);
     .card div{
-        @include flex (column, wrap, center, center)
+        @include flex (column, wrap, center, center);
     }
     div h3{
         font-family: $font-secundario;

@@ -3,7 +3,7 @@
         font-size: 2rem;
         height: 76vh;
     }
-    footer{
+    .index-footer{
         div h2{
             font-size: 0.9rem;
             padding-bottom: 0.8rem;
@@ -24,7 +24,7 @@
         }
         div img{
             width: 15rem;
-            height: 23rem;
+            height: 22rem;
             margin-left: 1rem;
         }
     }
@@ -37,12 +37,71 @@
             font-size: 0.9rem;
         }
     }
-    footer{
+    .sobremi-footer{
         div h2{
             padding: 0;
+            font-size: 0.9rem;
         }
         ul li{
-            margin: 0.5rem;
+            margin: 0.3rem;
+            font-size: 0.8rem;
+        }
+    }
+    .servicios{
+        h1{
+            font-size: 2.5rem;
+        }
+        .carousel-inner{
+            width: 20rem;
+            height: 25rem;
+            h2{
+                font-size: 1rem;
+                display: flex;
+                padding-bottom: 0.5rem;
+            }
+            p{
+                font-size: 0.9rem;
+                padding-bottom: 2rem;
+            }
+        }
+        
+    }
+    .servicios-footer{
+        div h2{
+            font-size: 1rem;
+            margin: 0;
+            padding: 1rem 0;
+        }
+        ul li{
+            font-size: 0.9rem;
+            margin: 0;
+            padding: 0.5rem 0;
+        }
+    }
+    .recetas-varias{
+        .titulo-recetas{
+            font-size: 1.5rem;
+            padding: 0.3rem 0;
+        }
+        .container-cards h3{
+            font-size: 0.8rem;
+            button{
+                margin-bottom: 1rem;
+            }
+        }
+        .container-cards img{
+            width: 10rem;
+            height: 8rem;
+        }
+    }
+    .recetas-footer{
+        div h2{
+            font-size: 0.9rem;
+            padding: 0;
+        }
+        div ul li{
+            font-size: 0.9rem;
+            margin-bottom: 0;
         }
     }
 }

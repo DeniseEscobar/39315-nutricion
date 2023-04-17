@@ -262,12 +262,48 @@ footer ul li a {
   .certificaciones div ul li p {
     margin-bottom: 2rem;
   }
-  footer div h2 {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+  .sobremi-footer div h2 {
+    padding-top: 1.2rem;
+    padding-bottom: 1.3rem;
   }
-  footer ul li {
+  .sobremi-footer ul li {
+    margin-bottom: 1.3rem;
+  }
+  .servicios h1 {
+    font-size: 3rem;
+    padding-top: 0.5rem;
+  }
+  .servicios .row {
+    margin-top: 0.5rem;
+  }
+  .servicios .carousel-inner {
+    width: 30rem;
+    height: 40rem;
+  }
+  .servicios .carousel-inner h2 {
+    display: flex;
+    padding-bottom: 1rem;
+  }
+  .servicios .carousel-inner p {
+    padding-bottom: 3rem;
+  }
+  .servicios-footer div h2 {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+  .servicios-footer ul li {
+    font-size: 1.2rem;
+    padding: 0;
+  }
+  .recetas-varias .container-cards h3 {
+    font-size: 1.2rem;
+  }
+  .recetas-varias .container-cards button {
     margin-bottom: 2rem;
+  }
+  .recetas-footer div ul li {
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
   }
 }
 @media (max-width: 1024px) {
@@ -275,11 +311,11 @@ footer ul li a {
     font-size: 2rem;
     height: 76vh;
   }
-  footer div h2 {
+  .index-footer div h2 {
     font-size: 0.9rem;
     padding-bottom: 0.8rem;
   }
-  footer ul li {
+  .index-footer ul li {
     font-size: 0.7rem;
     margin-bottom: 0.5rem;
   }
@@ -293,7 +329,7 @@ footer ul li a {
   }
   .seccion-sobremi div img {
     width: 15rem;
-    height: 23rem;
+    height: 22rem;
     margin-left: 1rem;
   }
   .certificaciones {
@@ -305,11 +341,61 @@ footer ul li a {
   .certificaciones ul li p {
     font-size: 0.9rem;
   }
-  footer div h2 {
+  .sobremi-footer div h2 {
+    padding: 0;
+    font-size: 0.9rem;
+  }
+  .sobremi-footer ul li {
+    margin: 0.3rem;
+    font-size: 0.8rem;
+  }
+  .servicios h1 {
+    font-size: 2.5rem;
+  }
+  .servicios .carousel-inner {
+    width: 20rem;
+    height: 25rem;
+  }
+  .servicios .carousel-inner h2 {
+    font-size: 1rem;
+    display: flex;
+    padding-bottom: 0.5rem;
+  }
+  .servicios .carousel-inner p {
+    font-size: 0.9rem;
+    padding-bottom: 2rem;
+  }
+  .servicios-footer div h2 {
+    font-size: 1rem;
+    margin: 0;
+    padding: 1rem 0;
+  }
+  .servicios-footer ul li {
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 0.5rem 0;
+  }
+  .recetas-varias .titulo-recetas, .recetas-varias .subtitulo-recetas {
+    font-size: 1.5rem;
+    padding: 0.3rem 0;
+  }
+  .recetas-varias .container-cards h3 {
+    font-size: 0.8rem;
+  }
+  .recetas-varias .container-cards h3 button {
+    margin-bottom: 1rem;
+  }
+  .recetas-varias .container-cards img {
+    width: 10rem;
+    height: 8rem;
+  }
+  .recetas-footer div h2 {
+    font-size: 0.9rem;
     padding: 0;
   }
-  footer ul li {
-    margin: 0.5rem;
+  .recetas-footer div ul li {
+    font-size: 0.9rem;
+    margin-bottom: 0;
   }
 }
 @media (max-width: 768px) {
@@ -345,24 +431,45 @@ footer ul li a {
   .certificaciones ul li p {
     font-size: 0.8rem;
   }
-  footer div h2 {
-    margin-top: 0.5rem;
-  }
-  footer ul li {
+  .sobremi-footer ul li {
     font-size: 0.8rem;
     margin: 0;
+    padding: 0.1rem 0;
     display: flex;
-    justify-content: left;
+    justify-content: center;
+  }
+  .servicios .row {
+    margin-bottom: 1rem;
+  }
+  .servicios h1 {
+    font-size: 2.5rem;
+  }
+  .servicios-footer div h2 {
+    padding: 0.5rem 0;
+  }
+  .servicios-footer ul li {
+    font-size: 0.8rem;
+    padding: 0.3rem 0;
+  }
+  .recetas-varias .container-cards img {
+    width: 8rem;
+    height: 7rem;
+  }
+  .recetas-varias .container-cards h3 {
+    font-size: 0.7rem;
+  }
+  .recetas-footer div ul li {
+    font-size: 0.8rem;
   }
 }
 @media (max-width: 425px) {
   .titulo-principal {
     background-size: cover;
   }
-  footer div h2 {
+  .index-footer div h2 {
     padding-bottom: 0.4rem;
   }
-  footer ul li {
+  .index-footer ul li {
     display: inline-flex;
     padding: 0;
     padding-left: 0.5rem;
@@ -373,7 +480,7 @@ footer ul li a {
     height: 3rem;
   }
   .seccion-sobremi div img {
-    width: 9rem;
+    width: 8rem;
     height: 13rem;
   }
   .seccion-sobremi div p {
@@ -386,19 +493,42 @@ footer ul li a {
   .certificaciones ul li p {
     font-size: 0.6rem;
   }
-  footer ul li {
+  .sobremi-footer ul li {
     font-size: 0.7rem;
-    margin: 1rem 0;
+    margin: 0;
+  }
+  .servicios .carousel-inner {
+    width: 15rem;
+    height: 20rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+  }
+  .recetas-varias .titulo-recetas, .recetas-varias .subtitulo-recetas {
+    font-size: 1.2rem;
+  }
+  .recetas-varias .container-cards {
+    display: block;
+    justify-content: space-around;
+  }
+  .recetas-varias .container-cards img {
+    display: none;
+  }
+  .recetas-varias .container-cards button {
+    font-size: 0.7rem;
+    margin-bottom: 0;
+  }
+  .recetas-footer div ul li {
+    font-size: 0.7rem;
   }
 }
 @media (max-width: 375px) {
-  footer {
+  .index-footer {
     font-size: 0.6rem;
   }
-  footer div h2 {
+  .index-footer div h2 {
     padding-top: 0.2rem;
   }
-  footer ul li img {
+  .index-footer ul li img {
     height: 0.7rem;
   }
   .titulo-principal {
@@ -407,17 +537,21 @@ footer ul li a {
   .seccion-sobremi div img {
     width: 6rem;
     height: 10rem;
+    margin-left: 0.5rem;
   }
   .seccion-sobremi div p {
-    padding: 0 0.5rem;
+    padding: 0 0.2rem;
   }
-  footer div h2 {
-    margin-top: 0.2rem;
-  }
-  footer ul li {
+  .sobremi-footer ul li {
     display: block;
     font-size: 0.7rem;
-    margin: 0.6rem;
+    margin: 0.1rem;
+  }
+  .servicios .carousel-inner {
+    margin-bottom: 1.7rem;
+  }
+  .recetas-footer div ul li {
+    font-size: 0.6rem;
   }
 }
 @media (max-width: 320px) {
@@ -432,6 +566,9 @@ footer ul li a {
     font-size: 1.4rem;
     height: 75vh;
   }
+  .seccion-sobremi div h1 {
+    font-size: 1.5rem;
+  }
   .seccion-sobremi div img {
     display: none;
   }
@@ -440,23 +577,30 @@ footer ul li a {
   }
   .certificaciones div h2 {
     margin: 0;
+    font-size: 1.5rem;
   }
   .certificaciones ul li p {
     font-size: 0.7rem;
     list-style: none;
     padding: 0 0.5rem;
   }
-  footer {
-    margin: 0;
-  }
-  footer div h2 {
+  .sobremi-footer div h2 {
     margin: 0;
     padding: 0;
   }
-  footer ul li {
+  .sobremi-footer ul li {
     display: flex;
     justify-content: center;
     margin: 0;
+    padding: 0;
+  }
+  .servicios h1 {
+    text-align: center;
+  }
+  .servicios .carousel-inner {
+    width: 12rem;
+    height: 18rem;
+    margin-bottom: 4rem;
   }
 }
 

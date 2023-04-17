@@ -1,5 +1,5 @@
 @media (max-width:375px){
-    footer{
+    .index-footer{
         font-size: 0.6rem;
         div h2{
             padding-top: 0.2rem;
@@ -15,19 +15,27 @@
         div img{
             width: 6rem;
             height: 10rem;
+            margin-left: 0.5rem;
         }
         div p{
-            padding: 0 0.5rem;
+            padding: 0 0.2rem;
         }
     }
-    footer{
-        div h2{
-            margin-top: 0.2rem;
-        }
+    .sobremi-footer{
         ul li{
             display: block;
             font-size: 0.7rem;
-            margin: 0.6rem;
+            margin: 0.1rem;
+        }
+    }
+    .servicios{
+        .carousel-inner{
+            margin-bottom: 1.7rem;
+        }
+    }
+    .recetas-footer{
+        div ul li{
+            font-size: 0.6rem;
         }
     }
 }

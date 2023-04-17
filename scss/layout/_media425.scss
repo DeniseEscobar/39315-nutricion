@@ -2,7 +2,7 @@
     .titulo-principal{
         background-size: cover;
     }
-    footer{
+    .index-footer{
         div h2{
         padding-bottom: 0.4rem;
     }
@@ -19,8 +19,8 @@
     }
     .seccion-sobremi{
         div img{
-            width: 9rem;
-            height: 13rem;
+        width: 8rem;
+        height: 13rem;
         }
         div p{
             font-size: 0.6rem;
@@ -35,10 +35,39 @@
             font-size: 0.6rem;
         }
     }
-    footer{
+    .sobremi-footer{
         ul li{
             font-size: 0.7rem;
-            margin: 1rem 0;
+            margin: 0;
+        }
+    }
+    .servicios{
+        .carousel-inner{
+            width: 15rem;
+            height: 20rem;
+            margin-right: 3rem;
+            margin-bottom: 3rem;
+        }
+    }
+    .recetas-varias{
+        .titulo-recetas, .subtitulo-recetas{
+            font-size: 1.2rem;
+        }
+        .container-cards{
+            display: block;
+            justify-content: space-around;
+        }
+        .container-cards img{
+            display: none;
+        }
+        .container-cards button{
+            font-size: 0.7rem;
+            margin-bottom: 0;
+        }
+    }
+    .recetas-footer{
+        div ul li{
+            font-size: 0.7rem;
         }
     }
 }
