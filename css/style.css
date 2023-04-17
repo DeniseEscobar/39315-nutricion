@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@500&display=swap");
 * {
   margin: 0;
@@ -137,6 +138,16 @@ nav label img {
   text-shadow: 1px 1px black;
 }
 
+.servicios .carousel-inner h2 {
+  font-size: 1rem;
+  display: flex;
+  padding-bottom: 0.5rem;
+}
+.servicios .carousel-inner p {
+  font-size: 0.9rem;
+  padding-bottom: 2rem;
+}
+
 .recetas-varias {
   background-image: url(../assets/img/recetas/fondo.jpg);
   background-repeat: no-repeat;
@@ -246,9 +257,11 @@ footer ul li a {
 }
 
 @media (max-width: 1440px) {
+  /**Index**/
   .titulo-principal {
     height: 81vh;
   }
+  /**Sobre mí**/
   .seccion-sobremi div h1 {
     margin-top: 1rem;
   }
@@ -269,16 +282,19 @@ footer ul li a {
   .sobremi-footer ul li {
     margin-bottom: 1.3rem;
   }
+  /***Servicios***/
   .servicios h1 {
     font-size: 3rem;
     padding-top: 0.5rem;
   }
   .servicios .row {
     margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
   }
   .servicios .carousel-inner {
-    width: 30rem;
-    height: 40rem;
+    width: 70%;
+    height: 20%;
   }
   .servicios .carousel-inner h2 {
     display: flex;
@@ -295,6 +311,7 @@ footer ul li a {
     font-size: 1.2rem;
     padding: 0;
   }
+  /**Recetas**/
   .recetas-varias .container-cards h3 {
     font-size: 1.2rem;
   }
@@ -304,6 +321,33 @@ footer ul li a {
   .recetas-footer div ul li {
     font-size: 1.2rem;
     margin-bottom: 2.5rem;
+  }
+}
+@media (max-width: 1366px) {
+  /**Index**/
+  .titulo-principal {
+    height: 75vh;
+  }
+  /**Sobre mí**/
+  .sobremi-footer div h2 {
+    padding-top: 0.7rem;
+    padding-bottom: 1rem;
+  }
+  .sobremi-footer ul li {
+    margin-bottom: 1rem;
+  }
+  .certificaciones {
+    margin-top: 1.3rem;
+  }
+  .certificaciones div ul li p {
+    margin: 0;
+  }
+  .seccion-sobremi div img {
+    width: 12rem;
+    height: 20rem;
+  }
+  .seccion-sobremi div p {
+    margin-top: 1rem;
   }
 }
 @media (max-width: 1024px) {
@@ -351,19 +395,6 @@ footer ul li a {
   }
   .servicios h1 {
     font-size: 2.5rem;
-  }
-  .servicios .carousel-inner {
-    width: 20rem;
-    height: 25rem;
-  }
-  .servicios .carousel-inner h2 {
-    font-size: 1rem;
-    display: flex;
-    padding-bottom: 0.5rem;
-  }
-  .servicios .carousel-inner p {
-    font-size: 0.9rem;
-    padding-bottom: 2rem;
   }
   .servicios-footer div h2 {
     font-size: 1rem;
@@ -498,10 +529,8 @@ footer ul li a {
     margin: 0;
   }
   .servicios .carousel-inner {
-    width: 15rem;
-    height: 20rem;
-    margin-right: 3rem;
-    margin-bottom: 3rem;
+    width: 100%;
+    height: 100%;
   }
   .recetas-varias .titulo-recetas, .recetas-varias .subtitulo-recetas {
     font-size: 1.2rem;
@@ -595,12 +624,11 @@ footer ul li a {
     padding: 0;
   }
   .servicios h1 {
-    text-align: center;
+    text-align: right;
   }
   .servicios .carousel-inner {
-    width: 12rem;
-    height: 18rem;
-    margin-bottom: 4rem;
+    width: 100%;
+    height: 100%;
   }
 }
 

@@ -1,0 +1,32 @@
+@media (max-width:1366px){
+    /**Index**/
+    .titulo-principal{
+        height: 75vh;
+    }
+
+    /**Sobre mí**/
+    .sobremi-footer{
+        div h2{
+            padding-top: 0.7rem;
+            padding-bottom: 1rem;
+        }
+        ul li{
+            margin-bottom: 1rem;
+        }
+    }
+    .certificaciones{
+        margin-top: 1.3rem;
+        div ul li p{
+            margin: 0;
+        }
+    }
+    .seccion-sobremi{
+        div img{
+            width: 12rem;
+            height: 20rem;
+        }
+        div p{
+            margin-top: 1rem;
+        }
+    }
+}

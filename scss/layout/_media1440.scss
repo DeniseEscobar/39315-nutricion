@@ -1,7 +1,10 @@
 @media (max-width:1440px){
+    /**Index**/
     .titulo-principal{
         height: 81vh;
     }
+
+    /**Sobre mí**/
     .seccion-sobremi{
         div h1{
             margin-top: 1rem;
@@ -26,6 +29,8 @@
             margin-bottom: 1.3rem;
         }
     }
+
+    /***Servicios***/
     .servicios{
         h1{
             font-size: 3rem;
@@ -33,10 +38,12 @@
         }
         .row{
             margin-top: 0.5rem;
+            display: flex;
+            justify-content: center;
         }
         .carousel-inner{
-            width: 30rem;
-            height: 40rem;
+            width: 70%;
+            height: 20%;
             h2{
                 display: flex;
                 padding-bottom: 1rem;
@@ -56,6 +63,8 @@
             padding: 0;
         }
     }
+
+    /**Recetas**/
     .recetas-varias{
         .container-cards h3{
             font-size: 1.2rem;
