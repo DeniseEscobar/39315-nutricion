@@ -43,14 +43,7 @@
         }
         .carousel-inner{
             width: 70%;
-            height: 20%;
-            h2{
-                display: flex;
-                padding-bottom: 1rem;
-            }
-            p{
-                padding-bottom: 3rem;
-            }
+            height: 10%;
         }
     }
     .servicios-footer{
@@ -78,5 +71,10 @@
             font-size: 1.2rem;
             margin-bottom: 2.5rem;
         }
+    }
+
+    /**Más Info**/
+    .masinfo-footer{
+        font-size: 0.9rem;
     }
 }

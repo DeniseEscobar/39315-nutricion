@@ -13,6 +13,7 @@
             margin-bottom: 0.5rem;
         }
     }
+    /**Sobre mí**/
     .seccion-sobremi{
         div h1{
             margin: 0;
@@ -47,23 +48,35 @@
             font-size: 0.8rem;
         }
     }
+
+    /** Servicios **/
     .servicios{
         h1{
-            font-size: 2.5rem;
+            font-size: 2rem;
+            padding-top: 0.2rem;
+        }
+        .row{
+            margin-top: 0;
+        }
+        .carousel-inner{
+            width: 55%;
+            height: 10%;
         }
     }
     .servicios-footer{
         div h2{
             font-size: 1rem;
             margin: 0;
-            padding: 1rem 0;
+            padding: 0;
         }
         ul li{
             font-size: 0.9rem;
             margin: 0;
-            padding: 0.5rem 0;
+            padding: 0;
         }
     }
+
+    /**Recetas**/
     .recetas-varias{
         .titulo-recetas{
             font-size: 1.5rem;
@@ -88,6 +101,32 @@
         div ul li{
             font-size: 0.9rem;
             margin-bottom: 0;
+        }
+    }
+
+    //**Más Info*//
+    .mas-info{
+        height: 75vh;
+        h1{
+            margin-bottom: 0;
+            padding-top: 0.5rem;
+            font-size: 2.5rem;
+        }
+        div .info-body{
+            font-size: 0.9rem;
+            padding: 0.5rem 5rem;
+            text-indent: 1rem;
+            line-height: 1rem;
+        }
+    }
+    .masinfo-footer{
+        .contactos{
+            padding-bottom: 0;
+            padding-top: 0.5rem;
+        }
+        div .contactos-masinfo{
+            font-size: 0.8rem;
+            padding-bottom: 0;
         }
     }
 }

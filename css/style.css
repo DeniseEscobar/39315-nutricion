@@ -217,7 +217,7 @@ button:hover {
   margin-bottom: 1rem;
   text-shadow: 1px 1px white;
 }
-.mas-info p {
+.mas-info .info-body {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   padding: 0.5rem 10rem;
@@ -294,14 +294,7 @@ footer ul li a {
   }
   .servicios .carousel-inner {
     width: 70%;
-    height: 20%;
-  }
-  .servicios .carousel-inner h2 {
-    display: flex;
-    padding-bottom: 1rem;
-  }
-  .servicios .carousel-inner p {
-    padding-bottom: 3rem;
+    height: 10%;
   }
   .servicios-footer div h2 {
     font-size: 1.5rem;
@@ -322,6 +315,10 @@ footer ul li a {
     font-size: 1.2rem;
     margin-bottom: 2.5rem;
   }
+  /**Más Info**/
+  .masinfo-footer {
+    font-size: 0.9rem;
+  }
 }
 @media (max-width: 1366px) {
   /**Index**/
@@ -331,13 +328,14 @@ footer ul li a {
   /**Sobre mí**/
   .sobremi-footer div h2 {
     padding-top: 0.7rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
   }
   .sobremi-footer ul li {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
   }
   .certificaciones {
-    margin-top: 1.3rem;
+    margin-top: 0.8rem;
   }
   .certificaciones div ul li p {
     margin: 0;
@@ -347,7 +345,47 @@ footer ul li a {
     height: 20rem;
   }
   .seccion-sobremi div p {
-    margin-top: 1rem;
+    margin-top: 0.7rem;
+  }
+  /**Servicios**/
+  .servicios h1 {
+    font-size: 2.7rem;
+    padding-top: 0.1rem;
+  }
+  .servicios .row {
+    margin-top: 0;
+  }
+  .servicios-footer div h2 {
+    font-size: 1.2rem;
+  }
+  .servicios-footer ul li {
+    font-size: 1rem;
+  }
+  /**Recetas**/
+  .recetas-varias .titulo-recetas, .recetas-varias .subtitulo-recetas {
+    font-size: 1.7rem;
+    padding: 0.1rem;
+  }
+  .container-cards h3 {
+    font-size: 0.8rem;
+  }
+  section div img {
+    width: 11rem;
+    height: 8rem;
+  }
+  .container-cards button {
+    margin-bottom: 1rem;
+  }
+  .recetas-footer div h2 {
+    font-size: 1rem;
+  }
+  .recetas-footer div ul li {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+  /**Más Info**/
+  .masinfo-footer .contactos {
+    font-size: 0.8rem;
   }
 }
 @media (max-width: 1024px) {
@@ -363,6 +401,7 @@ footer ul li a {
     font-size: 0.7rem;
     margin-bottom: 0.5rem;
   }
+  /**Sobre mí**/
   .seccion-sobremi div h1 {
     margin: 0;
     font-size: 2rem;
@@ -393,19 +432,29 @@ footer ul li a {
     margin: 0.3rem;
     font-size: 0.8rem;
   }
+  /** Servicios **/
   .servicios h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    padding-top: 0.2rem;
+  }
+  .servicios .row {
+    margin-top: 0;
+  }
+  .servicios .carousel-inner {
+    width: 55%;
+    height: 10%;
   }
   .servicios-footer div h2 {
     font-size: 1rem;
     margin: 0;
-    padding: 1rem 0;
+    padding: 0;
   }
   .servicios-footer ul li {
     font-size: 0.9rem;
     margin: 0;
-    padding: 0.5rem 0;
+    padding: 0;
   }
+  /**Recetas**/
   .recetas-varias .titulo-recetas, .recetas-varias .subtitulo-recetas {
     font-size: 1.5rem;
     padding: 0.3rem 0;
@@ -428,6 +477,28 @@ footer ul li a {
     font-size: 0.9rem;
     margin-bottom: 0;
   }
+  .mas-info {
+    height: 75vh;
+  }
+  .mas-info h1 {
+    margin-bottom: 0;
+    padding-top: 0.5rem;
+    font-size: 2.5rem;
+  }
+  .mas-info div .info-body {
+    font-size: 0.9rem;
+    padding: 0.5rem 5rem;
+    text-indent: 1rem;
+    line-height: 1rem;
+  }
+  .masinfo-footer .contactos {
+    padding-bottom: 0;
+    padding-top: 0.5rem;
+  }
+  .masinfo-footer div .contactos-masinfo {
+    font-size: 0.8rem;
+    padding-bottom: 0;
+  }
 }
 @media (max-width: 768px) {
   nav .menu {
@@ -448,6 +519,7 @@ footer ul li a {
   nav #toggle:checked ~ .menu {
     height: 100%;
   }
+  /**Sobre mi**/
   .seccion-sobremi div p {
     font-size: 0.8rem;
     padding: 0 2rem;
@@ -469,19 +541,23 @@ footer ul li a {
     display: flex;
     justify-content: center;
   }
-  .servicios .row {
-    margin-bottom: 1rem;
+  /**Servicios**/
+  .carousel-inner {
+    width: 70%;
+    height: 20%;
+    margin-bottom: 3.4rem;
   }
   .servicios h1 {
     font-size: 2.5rem;
   }
   .servicios-footer div h2 {
-    padding: 0.5rem 0;
+    padding: 0;
   }
   .servicios-footer ul li {
     font-size: 0.8rem;
-    padding: 0.3rem 0;
+    padding: 0;
   }
+  /**Recetas**/
   .recetas-varias .container-cards img {
     width: 8rem;
     height: 7rem;
@@ -491,6 +567,17 @@ footer ul li a {
   }
   .recetas-footer div ul li {
     font-size: 0.8rem;
+  }
+  /**Más Info**/
+  .mas-info {
+    height: 68vh;
+  }
+  .mas-info div .info-body {
+    padding: 0.5rem 2rem;
+    font-size: 0.8rem;
+  }
+  .mas-info div .contactos-masinfo {
+    font-size: 0.7rem;
   }
 }
 @media (max-width: 425px) {
@@ -528,9 +615,15 @@ footer ul li a {
     font-size: 0.7rem;
     margin: 0;
   }
+  .servicios h1 {
+    font-size: 2rem;
+  }
   .servicios .carousel-inner {
     width: 100%;
     height: 100%;
+  }
+  .servicios-footer {
+    margin: 0;
   }
   .recetas-varias .titulo-recetas, .recetas-varias .subtitulo-recetas {
     font-size: 1.2rem;
@@ -549,8 +642,23 @@ footer ul li a {
   .recetas-footer div ul li {
     font-size: 0.7rem;
   }
+  /**Más Info**/
+  .mas-info div h1 {
+    font-size: 2rem;
+  }
+  .mas-info div .info-body {
+    font-size: 0.6rem;
+  }
+  .masinfo-footer .contactos {
+    font-size: 0.7rem;
+  }
+  .masinfo-footer .contactos-masinfo li {
+    font-size: 0.7rem;
+    margin-top: 0.4rem;
+  }
 }
 @media (max-width: 375px) {
+  /**Index**/
   .index-footer {
     font-size: 0.6rem;
   }
@@ -563,6 +671,7 @@ footer ul li a {
   .titulo-principal {
     font-size: 1.5rem;
   }
+  /**Sobre mí**/
   .seccion-sobremi div img {
     width: 6rem;
     height: 10rem;
@@ -576,14 +685,27 @@ footer ul li a {
     font-size: 0.7rem;
     margin: 0.1rem;
   }
+  /**Servicios**/
   .servicios .carousel-inner {
-    margin-bottom: 1.7rem;
+    margin-bottom: 3.7rem;
   }
+  /**Recetas**/
   .recetas-footer div ul li {
     font-size: 0.6rem;
   }
+  /**Más Info **/
+  .mas-info div .info-body {
+    padding: 0.4rem;
+  }
+  .mas-info div h1 {
+    font-size: 1.6rem;
+  }
+  .masinfo-footer li img {
+    width: 1rem;
+  }
 }
 @media (max-width: 320px) {
+  /**Index**/
   header nav .logo {
     width: 12rem;
     height: 4rem;
@@ -595,6 +717,7 @@ footer ul li a {
     font-size: 1.4rem;
     height: 75vh;
   }
+  /**Sobre mí*/
   .seccion-sobremi div h1 {
     font-size: 1.5rem;
   }
@@ -623,12 +746,39 @@ footer ul li a {
     margin: 0;
     padding: 0;
   }
+  /** Servicios */
   .servicios h1 {
     text-align: right;
   }
   .servicios .carousel-inner {
     width: 100%;
     height: 100%;
+    margin-bottom: 7rem;
+  }
+  /** Más Info **/
+  .mas-info {
+    height: 74vh;
+  }
+  .mas-info div .info-body {
+    padding: 0.3rem;
+  }
+  .mas-info div h1 {
+    font-size: 1.5rem;
+  }
+  .masinfo-footer .contactos {
+    font-size: 0.5rem;
+  }
+  .masinfo-footer .contactos-masinfo {
+    padding: 0;
+    margin: 0;
+  }
+  .masinfo-footer .contactos-masinfo li {
+    font-size: 0.5rem;
+  }
+  .masinfo-footer .contactos-masinfo li img {
+    width: 0.9rem;
+    padding: 0;
+    margin: 0;
   }
 }
 

@@ -8,14 +8,15 @@
     .sobremi-footer{
         div h2{
             padding-top: 0.7rem;
-            padding-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            font-size: 1rem;
         }
         ul li{
-            margin-bottom: 1rem;
+            margin-bottom: 0.5rem;
         }
     }
     .certificaciones{
-        margin-top: 1.3rem;
+        margin-top: 0.8rem;
         div ul li p{
             margin: 0;
         }
@@ -26,7 +27,61 @@
             height: 20rem;
         }
         div p{
-            margin-top: 1rem;
+            margin-top: 0.7rem;
         }
     }
+
+    /**Servicios**/
+    .servicios{
+        h1{
+            font-size: 2.7rem;
+            padding-top: 0.1rem;
+        }
+        .row{
+            margin-top: 0;
+        }
+    }
+    .servicios-footer{
+        div h2{
+            font-size: 1.2rem;
+        }
+        ul li{
+            font-size: 1rem;
+        }
+    }
+    
+    /**Recetas**/
+    .recetas-varias{
+        .titulo-recetas{
+            font-size: 1.7rem;
+            padding: 0.1rem;
+        }
+    }
+    .container-cards h3{
+        font-size: 0.8rem;
+    }
+    section div img{
+        width: 11rem;
+        height: 8rem;
+    }
+    .container-cards button{
+        margin-bottom: 1rem;
+    }
+    .recetas-footer{
+        div h2{
+            font-size: 1rem;
+        }
+        div ul li{
+            font-size: 1rem;
+            margin-bottom: 0;
+        }
+    }
+
+    /**Más Info**/
+    .masinfo-footer{
+        .contactos{
+            font-size: 0.8rem;
+        }
+    }
+
 }

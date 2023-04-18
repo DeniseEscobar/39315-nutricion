@@ -42,12 +42,16 @@
         }
     }
     .servicios{
+        h1{
+            font-size: 2rem;
+        }
         .carousel-inner{
             width: 100%;
             height: 100%;
-            // margin-right: 3rem;
-            // margin-bottom: 3rem;
         }
+    }
+    .servicios-footer{
+        margin: 0;
     }
     .recetas-varias{
         .titulo-recetas, .subtitulo-recetas{
@@ -68,6 +72,25 @@
     .recetas-footer{
         div ul li{
             font-size: 0.7rem;
+        }
+    }
+
+    /**Más Info**/
+    .mas-info{
+        div h1{
+            font-size: 2rem;
+        }
+        div .info-body{
+            font-size: 0.6rem;
+        }
+    }
+    .masinfo-footer{
+        .contactos{
+            font-size: 0.7rem;
+        }
+        .contactos-masinfo li{
+            font-size: 0.7rem;
+            margin-top: 0.4rem;
         }
     }
 }

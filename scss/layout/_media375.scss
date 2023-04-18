@@ -1,4 +1,5 @@
 @media (max-width:375px){
+    /**Index**/
     .index-footer{
         font-size: 0.6rem;
         div h2{
@@ -11,6 +12,8 @@
     .titulo-principal{
         font-size: 1.5rem;
     }
+
+    /**Sobre mí**/
     .seccion-sobremi{
         div img{
             width: 6rem;
@@ -28,14 +31,34 @@
             margin: 0.1rem;
         }
     }
+
+    /**Servicios**/
     .servicios{
         .carousel-inner{
-            margin-bottom: 1.7rem;
+            margin-bottom: 3.7rem;
         }
     }
+
+
+    /**Recetas**/
     .recetas-footer{
         div ul li{
             font-size: 0.6rem;
+        }
+    }
+
+    /**Más Info **/
+    .mas-info{
+        div .info-body{
+            padding: 0.4rem;
+        }
+        div h1{
+            font-size: 1.6rem;
+        }
+    }
+    .masinfo-footer{
+        li img{
+            width: 1rem;
         }
     }
 }
