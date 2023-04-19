@@ -17,23 +17,26 @@
     nav #toggle:checked ~ .menu{
         height: 100%;
     }
+
     /**Sobre mi**/
     .seccion-sobremi{
-        div p{
-            font-size: 0.8rem;
-            padding: 0 2rem;
+        .sobremi-ppal p{
+            font-size: 0.7rem;
+            padding: 0 1rem;
         }
-        div img{
-            width: 12rem;
-            height: 18rem;
+        .foto-sobremi img{
+            width: 10rem;
+            height: 15rem;
         }
     }
     .certificaciones{
         div h2{
-            margin-top: 1.5rem;
+            margin-top: 0;
         }
         ul li p{
-            font-size: 0.8rem;
+            font-size: 0.7rem;
+            margin: 0;
+            padding: 0;
         }
     }
     .sobremi-footer{
@@ -41,20 +44,17 @@
             font-size: 0.8rem;
             margin: 0;
             padding: 0.1rem 0;
-            display: flex;
-            justify-content: center;
         }
     }
 
     /**Servicios**/
-    .carousel-inner{
-        width: 70%;
-        height: 20%;
-        margin-bottom: 3.4rem;
-    }
     .servicios h1{
         font-size: 2.5rem;
-        
+    }
+    .carousel-inner{
+        width: 100%;
+        height: 20%;
+        margin-bottom: 3.5rem;
     }
     .servicios-footer{
         div h2{
@@ -68,9 +68,15 @@
 
     /**Recetas**/
     .recetas-varias{
+        .titulo-recetas{
+            font-size: 1.2rem;
+        }
         .container-cards img{
-            width: 8rem;
-            height: 7rem;
+            width: 7rem;
+            height: 6rem;
+        }
+        .container-cards .recep-but{
+            font-size: 0.7rem;
         }
         .container-cards h3{
             font-size: 0.7rem;
@@ -92,5 +98,13 @@
         div .contactos-masinfo{
             font-size: 0.7rem;
         }
+    }
+
+    /** Preparaciones **/
+    .contacts-prep{
+        font-size: 1rem;
+    }
+    .contacts-preparaciones{
+        font-size: 1.2rem;
     }
 }

@@ -1,33 +1,31 @@
 @media (max-width:1366px){
     /**Index**/
-    .titulo-principal{
+    .main-ppal{
         height: 75vh;
     }
 
     /**Sobre mí**/
-    .sobremi-footer{
-        div h2{
-            padding-top: 0.7rem;
-            padding-bottom: 0.5rem;
-            font-size: 1rem;
+    .seccion-sobremi{
+        .foto-sobremi img{
+            width: 12rem;
+            height: 20rem;
         }
-        ul li{
-            margin-bottom: 0.5rem;
+        .sobremi-ppal p{
+            margin-top: 0.7rem;
         }
     }
     .certificaciones{
         margin-top: 0.8rem;
-        div ul li p{
-            margin: 0;
-        }
+        margin-bottom: 2rem;
     }
-    .seccion-sobremi{
-        div img{
-            width: 12rem;
-            height: 20rem;
+    .sobremi-footer{
+        div .cont-sobremi{
+            padding-top: 0.7rem;
+            padding-bottom: 0.5rem;
+            font-size: 1.2rem;
         }
-        div p{
-            margin-top: 0.7rem;
+        ul li{
+            margin-bottom: 1rem;
         }
     }
 
@@ -42,8 +40,8 @@
         }
     }
     .servicios-footer{
-        div h2{
-            font-size: 1.2rem;
+        div .cont-servi{
+            font-size: 1rem;
         }
         ul li{
             font-size: 1rem;
@@ -64,16 +62,16 @@
         width: 11rem;
         height: 8rem;
     }
-    .container-cards button{
-        margin-bottom: 1rem;
+    .container-cards .recep-but{
+        margin-bottom: 1.5rem;
     }
     .recetas-footer{
-        div h2{
+        div .foot-recets{
             font-size: 1rem;
         }
         div ul li{
             font-size: 1rem;
-            margin-bottom: 0;
+            margin-bottom: 0.5rem;
         }
     }
 
@@ -84,4 +82,16 @@
         }
     }
 
+    /**Preparaciones**/
+    .main-prep{
+        button{
+            margin: 0.5rem;
+        }
+    }
+    .contacts-prep{
+        font-size: 1.2rem;
+    }
+    .contactos-preparaciones li{
+        font-size: 1rem;
+    }
 }

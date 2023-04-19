@@ -15,18 +15,17 @@
 
     /**Sobre mí**/
     .seccion-sobremi{
-        div img{
+        .foto-sobremi img{
             width: 6rem;
             height: 10rem;
-            margin-left: 0.5rem;
+            margin-left: 0.2rem;
         }
-        div p{
+        .sobremi-ppal p{
             padding: 0 0.2rem;
         }
     }
     .sobremi-footer{
         ul li{
-            display: block;
             font-size: 0.7rem;
             margin: 0.1rem;
         }
@@ -35,7 +34,7 @@
     /**Servicios**/
     .servicios{
         .carousel-inner{
-            margin-bottom: 3.7rem;
+            margin-bottom: 5.5rem;
         }
     }
 
@@ -61,4 +60,13 @@
             width: 1rem;
         }
     }
+
+    /** Preparaciones **/
+    .main-prep{
+        button{
+            padding-right: 1rem;
+            font-size: 0.6rem;
+        }
+    }
+
 }

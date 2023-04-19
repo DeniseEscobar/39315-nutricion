@@ -25,18 +25,18 @@ section div img{
     .card div{
         @include flex (column, wrap, center, center);
     }
-    div h3{
+    .recep-titles h3{
         font-family: $font-secundario;
         font-size: 0.9rem;
     }
 }
-button{
+.recep-but{
     margin-bottom: 0.8rem;
     background-color: rgba(128, 128, 128, 0.274);
     border-radius: 10px;
     padding: 3.5px;
 }
-button:hover{
+.recep-but:hover{
     font-family: $font-secundario;
     font-size: 0.7rem;
     background-color: lightcyan;

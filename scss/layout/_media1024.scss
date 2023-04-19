@@ -1,12 +1,15 @@
 @media(max-width:1024px){
+    /** Index **/
+    .main-ppal{
+        height: 75vh;
+    }
     .titulo-principal{
-        font-size: 2rem;
-        height: 76vh;
+        font-size: 3rem;
     }
     .index-footer{
         div h2{
             font-size: 0.9rem;
-            padding-bottom: 0.8rem;
+            padding-bottom: 0;
         }
         ul li{
             font-size: 0.7rem;
@@ -15,37 +18,42 @@
     }
     /**Sobre mí**/
     .seccion-sobremi{
-        div h1{
+        .sobremi-ppal h1{
             margin: 0;
             font-size: 2rem;
         }
-        div p{
-            margin: 0;
-            font-size: 0.9rem;
+        .sobremi-ppal p{
+            font-size: 0.8rem;
+            padding: 0 0.9rem;
         }
-        div img{
-            width: 15rem;
-            height: 22rem;
+        .foto-sobremi img{
+            width: 10rem;
+            height: 17rem;
+            margin-top: 1rem;
             margin-left: 1rem;
         }
     }
+
     .certificaciones{
         margin: 0;
         div h2{
             font-size: 2rem;
         }
-        ul li p{
-            font-size: 0.9rem;
+        .list-certif li p{
+            font-size: 0.8rem;
         }
     }
+
     .sobremi-footer{
-        div h2{
+        div .cont-sobremi{
             padding: 0;
             font-size: 0.9rem;
+            margin: 0;
         }
         ul li{
             margin: 0.3rem;
             font-size: 0.8rem;
+            padding: 0;
         }
     }
 
@@ -59,18 +67,18 @@
             margin-top: 0;
         }
         .carousel-inner{
-            width: 55%;
+            width: 60%;
             height: 10%;
         }
     }
     .servicios-footer{
-        div h2{
-            font-size: 1rem;
+        div .cont-servi{
+            font-size: 0.9rem;
             margin: 0;
             padding: 0;
         }
         ul li{
-            font-size: 0.9rem;
+            font-size: 0.8rem;
             margin: 0;
             padding: 0;
         }
@@ -80,26 +88,26 @@
     .recetas-varias{
         .titulo-recetas{
             font-size: 1.5rem;
-            padding: 0.3rem 0;
+            padding: 0.2rem 0;
         }
         .container-cards h3{
             font-size: 0.8rem;
-            button{
-                margin-bottom: 1rem;
-            }
+        }
+        .container-cards .recep-but{
+            margin-bottom: 1rem;
         }
         .container-cards img{
-            width: 10rem;
-            height: 8rem;
+            width: 8rem;
+            height: 6rem;
         }
     }
     .recetas-footer{
-        div h2{
-            font-size: 0.9rem;
+        div .foot-recets{
+            font-size: 0.8rem;
             padding: 0;
         }
         div ul li{
-            font-size: 0.9rem;
+            font-size: 0.8rem;
             margin-bottom: 0;
         }
     }
@@ -128,5 +136,36 @@
             font-size: 0.8rem;
             padding-bottom: 0;
         }
+    }
+
+    
+    /**Preparaciones **/
+    .main-prep{
+        button{
+            font-size: 0.8rem;
+            margin: 0;
+        }
+        h1{
+            font-size: 1.5rem;
+            padding-top: 0.2rem;
+            padding-bottom: 0;
+        }
+    }
+    .accordion-body{
+        line-height: 0.5rem;
+        font-size: 0.8rem;
+    }
+    .contacts-prep{
+        font-size: 0.9rem;
+        padding: 0;
+        margin: 0;
+    }
+    .contacts-preparaciones li{
+        font-size: 0.7rem;
+        padding: 0;
+        margin: 0;
+    }
+    .contacts-preparaciones li img{
+        font-size: 0.9rem;
     }
 }

@@ -1,0 +1,21 @@
+.main-prep{
+    background-color: rgba(224, 255, 255, 0.164);
+    font-family: $font-secundario;
+    font-size: 0.8rem;
+    button{
+        font-size: 0.8rem;
+        padding: 0;
+        margin: 0.5rem;
+        padding-right: 2rem;
+    }
+    h1{
+    font-family: $font-principal;
+    text-align: right;
+    color: $color-principal;
+    font-size: 2rem;
+    padding: 0.5rem 0.5rem;
+    }
+    .accordion-body{
+        line-height: 0.7rem;
+    }
+}
